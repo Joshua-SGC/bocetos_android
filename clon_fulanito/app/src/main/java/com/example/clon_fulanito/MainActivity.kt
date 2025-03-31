@@ -12,8 +12,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.clon_fulanito.ui.theme.Clon_fulanitoTheme
+import com.example.clon_fulanito.vista_modelos.FulanitoViewModel
 
 class MainActivity : ComponentActivity() {
+    private val modelo_app = FulanitoViewModel()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
